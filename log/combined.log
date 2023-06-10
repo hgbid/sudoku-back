@@ -73,3 +73,312 @@
 {"level":"info","message":"Connected to MongoDB successfully","service":"user-service"}
 {"level":"info","message":"get regions called","service":"user-service"}
 {"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"Starting the progarm","service":"user-service"}
+{"level":"info","message":"Connected to MongoDB successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Region\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"undefined\"","value":"undefined","valueType":"string"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Region\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"undefined\"","value":"undefined","valueType":"string"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Region\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"undefined\"","value":"undefined","valueType":"string"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Region\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"undefined\"","value":"undefined","valueType":"string"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get inst by region called","service":"user-service"}
+{"level":"info","message":"Retrieving instructors successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"Starting the progarm","service":"user-service"}
+{"level":"info","message":"Connected to MongoDB successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Regions return successfully","service":"user-service"}
+{"level":"info","message":"Starting the progarm","service":"user-service"}
+{"level":"info","message":"Connected to MongoDB successfully","service":"user-service"}
+{"level":"info","message":"get regions called","service":"user-service"}
