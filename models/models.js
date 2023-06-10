@@ -4,7 +4,8 @@ const Instructor = mongoose.model(
   "Instructor",
   new mongoose.Schema({
     name: String,
-    area: String,
+    region: { type: mongoose.Schema.Types.ObjectId, ref: "Region" },
+    city: String,
     level: String,
     students: [{ type: mongoose.Schema.Types.ObjectId, ref: "Student" }],
   })
@@ -15,8 +16,16 @@ const Student = mongoose.model(
     name: String,
     instructor: { type: mongoose.Schema.Types.ObjectId, ref: "Instructor" },
     code: String,
-    passed: Boolean,
+    pass: Boolean,
   })
 );
 
-module.exports = { Student, Instructor };
+const Region = mongoose.model(
+  "Region",
+  new mongoose.Schema({
+    name: String,
+    manager: String,
+    instructors: [{ type: mongoose.Schema.Types.ObjectId, ref: "Instructor" }],
+  })
+);
+module.exports = { Student, Instructor, Region };
