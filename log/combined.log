@@ -1,0 +1,17 @@
+{"level":"info","message":"Starting the progarm","service":"user-service"}
+{"level":"info","message":"Connected to MongoDB successfully","service":"user-service"}
+{"level":"info","message":"Starting the progarm","service":"user-service"}
+{"level":"info","message":"Starting the progarm","service":"user-service"}
+{"level":"info","message":"Starting the progarm","service":"user-service"}
+{"level":"info","message":"Connected to MongoDB successfully","service":"user-service"}
+{"level":"info","message":"Starting the progarm","service":"user-service"}
+{"level":"info","message":"Connected to MongoDB successfully","service":"user-service"}
+{"level":"info","message":"add insrtactor called","service":"user-service"}
+{"level":"info","message":"Instructor added successfully","service":"user-service"}
+{"level":"info","message":"add insrtactor called","service":"user-service"}
+{"level":"info","message":"Instructor added successfully","service":"user-service"}
+{"level":"info","message":"Starting the progarm","service":"user-service"}
+{"level":"info","message":"Connected to MongoDB successfully","service":"user-service"}
+{"level":"info","message":"add student called","service":"user-service"}
+{"level":"info","message":"Student added successfully","service":"user-service"}
+{"level":"info","message":"Starting the progarm","service":"user-service"}
