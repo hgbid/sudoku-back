@@ -382,3 +382,28 @@
 {"level":"info","message":"Starting the progarm","service":"user-service"}
 {"level":"info","message":"Connected to MongoDB successfully","service":"user-service"}
 {"level":"info","message":"get regions called","service":"user-service"}
+{"level":"info","message":"Starting the progarm","service":"user-service"}
+{"level":"info","message":"Connected to MongoDB successfully","service":"user-service"}
+{"level":"info","message":"run code called","service":"user-service"}
+{"level":"info","message":"Starting the progarm","service":"user-service"}
+{"level":"info","message":"Connected to MongoDB successfully","service":"user-service"}
+{"level":"info","message":"run code called","service":"user-service"}
+{"level":"info","message":"run code return output","service":"user-service"}
+2023-06-10T23:15:13.140Z info: Starting the progarm
+2023-06-10T23:15:14.813Z info: Connected to MongoDB successfully
+2023-06-10T23:19:39.425Z info: Starting the progarm
+2023-06-10T23:19:40.975Z info: Connected to MongoDB successfully
+2023-06-10T23:19:41.386Z info: run code called
+2023-06-10T23:19:41.570Z info: run code return output
+2023-06-10T23:20:05.107Z info: run code called
+2023-06-10T23:20:05.250Z info: run code return output
+2023-06-10T23:27:23.731Z info: Starting the progarm
+2023-06-10T23:27:25.418Z info: Connected to MongoDB successfully
+2023-06-10T23:27:33.235Z info: run code called
+2023-06-10T23:27:33.407Z info: run code return output
+2023-06-10T23:28:02.852Z info: run code called
+2023-06-10T23:28:03.010Z info: run code return output
+2023-06-10T23:28:37.437Z info: Starting the progarm
+2023-06-10T23:28:39.347Z info: Connected to MongoDB successfully
+2023-06-10T23:28:39.647Z info: run code called
+2023-06-10T23:28:39.810Z info: run code return output
