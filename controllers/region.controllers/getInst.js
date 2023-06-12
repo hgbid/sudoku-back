@@ -18,7 +18,7 @@ exports.getInst = async (req, res) => {
       res.status(200).json(instructors);
     }
   } catch (error) {
-    logger.error(error);
+    logger.error(error.stack);
     res.status(500).send("Error retrieving instructors");
   }
 };

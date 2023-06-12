@@ -11,7 +11,7 @@ exports.addRegion = async (req, res) => {
     logger.info("Region added successfully");
     res.status(201).send("Region added successfully");
   } catch (error) {
-    logger.error(error.data);
+    logger.error(error.stack);
     res.status(500).send("Error adding region");
   }
 };

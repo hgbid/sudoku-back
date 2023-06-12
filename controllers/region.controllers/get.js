@@ -13,7 +13,7 @@ exports.getAllRegions = async (req, res) => {
     logger.info("Regions return successfully");
     res.status(200).json(regionList);
   } catch (error) {
-    logger.error(error.data);
+    logger.error(error.stack);
     res.status(500).send("Error retrieving regions");
   }
 };

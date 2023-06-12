@@ -15,8 +15,7 @@ const Student = mongoose.model(
   new mongoose.Schema({
     name: String,
     instructor: { type: mongoose.Schema.Types.ObjectId, ref: "Instructor" },
-    code: String,
-    sumbit: [{ code: String, date: String, pass: Boolean }],
+    sumbits: [{ code: String, date: String, pass: Boolean }],
   })
 );
 

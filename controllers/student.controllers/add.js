@@ -1,25 +1,36 @@
 const logger = require("../../utils/logger");
-const { Student, Instructor } = require("../../models/models");
+const { Student } = require("../../models/models");
 
 exports.addStudent = async (req, res) => {
   logger.info("add student called");
 
   try {
     const studentData = req.body;
-    const student = new Student(studentData);
-    await student.save();
+    let student = await Student.findOne({ name: studentData.name });
 
-    // Update the instructor's students
-    await Instructor.findByIdAndUpdate(
-      student.instructor,
-      { $push: { students: student._id } },
-      { new: true, useFindAndModify: false }
-    );
+    if (student) {
+      student.sumbits.push({
+        code: studentData.code,
+        date: new Date().toISOString(),
+        pass: studentData.pass,
+      });
+      await student.save();
+      logger.info("Sumbit added successfully");
+    } else {
+      student = new Student(studentData);
+      await student.save();
 
-    logger.info("Student added successfully");
+      await Instructor.findByIdAndUpdate(
+        student.instructor,
+        { $push: { students: student._id } },
+        { new: true, useFindAndModify: false }
+      );
+      logger.info("Student added successfully");
+    }
+
     res.status(201).send("Student added successfully");
   } catch (error) {
-    logger.error("Error adding student");
+    logger.error(error.stack);
     res.status(500).send("Error adding student");
   }
 };
