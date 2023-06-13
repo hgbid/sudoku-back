@@ -9,7 +9,7 @@ exports.addRegion = async (req, res) => {
     const region = new Region(regionData);
     await region.save();
     logger.info("Region added successfully");
-    res.status(201).send("Region added successfully");
+    res.status(201).send({ massage: "Region added successfully" });
   } catch (error) {
     logger.error(error.stack);
     res.status(500).send("Error adding region");

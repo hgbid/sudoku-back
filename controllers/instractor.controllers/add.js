@@ -15,7 +15,7 @@ exports.addInstr = async (req, res) => {
       { new: true, useFindAndModify: false }
     );
     logger.info("Instructor added successfully");
-    res.status(201).send("Instructor added successfully");
+    res.status(201).send({ massage: "Instructor added successfully" });
   } catch (error) {
     logger.error("Error adding instructor");
     res.status(500).send("Error adding instructor");

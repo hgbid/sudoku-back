@@ -8,11 +8,9 @@ function serialize(data) {
 exports.runCode = async (req, res) => {
   const script = req.body.script;
   const input = req.body.input;
-  console.log(input);
   logger.info("run code called");
 
   const pythonProcess = spawn("python", ["-c", script]);
-
   let output = "";
 
   pythonProcess.stdout.on("data", (data) => {
@@ -25,8 +23,7 @@ exports.runCode = async (req, res) => {
 
   pythonProcess.on("close", (code) => {
     logger.info("run code return output");
-
-    res.send(output);
+    res.json({ output });
   });
 
   if (input) {

@@ -1,5 +1,5 @@
 const logger = require("../../utils/logger");
-const { Student } = require("../../models/models");
+const { Student, Instructor } = require("../../models/models");
 
 exports.addStudent = async (req, res) => {
   logger.info("add student called");
@@ -17,7 +17,16 @@ exports.addStudent = async (req, res) => {
       await student.save();
       logger.info("Sumbit added successfully");
     } else {
-      student = new Student(studentData);
+      student = new Student({
+        ...studentData,
+        sumbits: [
+          {
+            code: studentData.code,
+            date: new Date().toISOString(),
+            pass: studentData.pass,
+          },
+        ],
+      });
       await student.save();
 
       await Instructor.findByIdAndUpdate(
@@ -28,9 +37,9 @@ exports.addStudent = async (req, res) => {
       logger.info("Student added successfully");
     }
 
-    res.status(201).send("Student added successfully");
+    res.status(201).json({ message: "Student added successfully" });
   } catch (error) {
     logger.error(error.stack);
-    res.status(500).send("Error adding student");
+    res.status(500).json({ message: "Error adding student" });
   }
 };

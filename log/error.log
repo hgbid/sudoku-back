@@ -111,3 +111,27 @@
 2023-06-12T21:50:43.775Z error: ReferenceError: Instructor is not defined
     at exports.addStudent (C:\Users\hagbi\Desktop\suduku\new\back\controllers\student.controllers\add.js:23:7)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-13T13:45:28.844Z error: ReferenceError: Instructor is not defined
+    at exports.addStudent (C:\Users\hagbi\Desktop\suduku\new\back\controllers\student.controllers\add.js:23:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-13T13:56:00.523Z error: ReferenceError: Instructor is not defined
+    at exports.addStudent (C:\Users\hagbi\Desktop\suduku\new\back\controllers\student.controllers\add.js:23:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-13T17:50:30.582Z error: ReferenceError: Instructor is not defined
+    at exports.addStudent (C:\Users\hagbi\Desktop\suduku\new\back\controllers\student.controllers\add.js:23:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-13T17:57:08.454Z error: ReferenceError: Instructor is not defined
+    at exports.addStudent (C:\Users\hagbi\Desktop\suduku\new\back\controllers\student.controllers\add.js:23:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-13T17:59:32.218Z error: ReferenceError: Instructor is not defined
+    at exports.addStudent (C:\Users\hagbi\Desktop\suduku\new\back\controllers\student.controllers\add.js:23:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-13T18:06:46.697Z error: ReferenceError: Instructor is not defined
+    at exports.addStudent (C:\Users\hagbi\Desktop\suduku\new\back\controllers\student.controllers\add.js:23:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-13T18:11:57.809Z error: ReferenceError: Instructor is not defined
+    at exports.addStudent (C:\Users\hagbi\Desktop\suduku\new\back\controllers\student.controllers\add.js:23:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-13T19:08:17.338Z error: ReferenceError: Instructor is not defined
+    at exports.addStudent (C:\Users\hagbi\Desktop\suduku\new\back\controllers\student.controllers\add.js:23:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
