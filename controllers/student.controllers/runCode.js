@@ -21,7 +21,14 @@ exports.runCode = async (req, res) => {
     output += data.toString();
   });
 
+  const timeout = 10000;
+  const timeoutId = setTimeout(() => {
+    pythonProcess.kill();
+    res.status(500).json({ error: "Timeout" });
+  }, timeout);
+
   pythonProcess.on("close", (code) => {
+    clearTimeout(timeoutId);
     logger.info("run code return output");
     res.json({ output });
   });

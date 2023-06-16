@@ -135,3 +135,101 @@
 2023-06-13T19:08:17.338Z error: ReferenceError: Instructor is not defined
     at exports.addStudent (C:\Users\hagbi\Desktop\suduku\new\back\controllers\student.controllers\add.js:23:7)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-14T11:41:06.862Z error: Error connecting to MongoDB: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2023-06-14T11:46:03.247Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T11:46:13.266Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T11:46:15.494Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T11:46:25.504Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T11:46:35.519Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T11:46:45.549Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T11:46:48.759Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T11:46:58.769Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T11:47:37.342Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T11:47:47.365Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T11:50:07.462Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T11:50:10.216Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T11:50:20.239Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T11:50:23.592Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T11:50:33.607Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T12:02:21.402Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T12:02:31.418Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T12:02:33.299Z error: MongooseError: Operation `students.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T12:02:43.312Z error: MongooseError: Operation `students.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T12:07:48.441Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T12:07:58.448Z error: MongooseError: Operation `regions.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-14T12:08:38.796Z error: Error connecting to MongoDB: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2023-06-15T12:46:36.939Z error: Error connecting to MongoDB: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2023-06-16T17:07:38.548Z error: Error connecting to MongoDB: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.3aprqan.mongodb.net
+2023-06-16T17:08:10.561Z error: MongooseError: Operation `students.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-16T17:08:20.598Z error: MongooseError: Operation `students.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\hagbi\Desktop\suduku\new\back\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2023-06-16T17:09:25.396Z error: Error connecting to MongoDB: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.3aprqan.mongodb.net
+2023-06-16T17:13:58.355Z error: Error connecting to MongoDB: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.3aprqan.mongodb.net
