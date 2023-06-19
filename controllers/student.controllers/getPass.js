@@ -5,21 +5,41 @@ exports.getPass = async (req, res) => {
   logger.info("get student called");
 
   try {
-    const students = await Student.find()
+    const task = req.query.task;
+    const region = req.query.region;
+    if (!task) {
+      return res.status(400).send("Missing task parameter");
+    }
+
+    let students = await Student.find()
       .populate({
         path: "instructor",
-        select: "city",
+        select: "city region",
+        populate: {
+          path: "region",
+          select: "name",
+        },
       })
       .select("name instructor sumbits")
       .lean();
 
+    if (region) {
+      students = students.filter(
+        (student) => student.instructor.region.name === region
+      );
+    }
+
     const result = students
       .map((student) => {
-        const earliestPass = student.sumbits
-          .filter((submit) => submit.pass)
-          .sort((a, b) => new Date(a.date) - new Date(b.date))[0];
+        const submit = student.sumbits.find(
+          (submit) =>
+            submit.task === task && submit.data.some((data) => data.pass)
+        );
+        if (!submit) return null;
 
-        if (!earliestPass) return null;
+        const earliestPass = submit.data
+          .filter((data) => data.pass)
+          .sort((a, b) => new Date(a.date) - new Date(b.date))[0];
 
         return {
           name: student.name,

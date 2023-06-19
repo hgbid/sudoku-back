@@ -9,7 +9,7 @@ const { getPass } = require("../controllers/student.controllers/getPass");
 
 router.post("/add", addStudent);
 router.post("/run", runCode);
-router.get("/get/:instId", getStudents);
+router.get("/get", getStudents);
 router.get("/getPass", getPass);
 
 module.exports = router;

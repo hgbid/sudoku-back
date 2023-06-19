@@ -6,14 +6,29 @@ exports.addStudent = async (req, res) => {
 
   try {
     const studentData = req.body;
+    const task = studentData.task;
     let student = await Student.findOne({ name: studentData.name });
 
     if (student) {
-      student.sumbits.push({
-        code: studentData.code,
-        date: new Date().toISOString(),
-        pass: studentData.pass,
-      });
+      let sumbits = student.sumbits.find((sumbit) => sumbit.task === task);
+      if (sumbits) {
+        sumbits.data.push({
+          code: studentData.code,
+          date: new Date().toISOString(),
+          pass: studentData.pass,
+        });
+      } else {
+        student.sumbits.push({
+          task: task,
+          data: [
+            {
+              code: studentData.code,
+              date: new Date().toISOString(),
+              pass: studentData.pass,
+            },
+          ],
+        });
+      }
       await student.save();
       logger.info("Sumbit added successfully");
     } else {
@@ -21,9 +36,14 @@ exports.addStudent = async (req, res) => {
         ...studentData,
         sumbits: [
           {
-            code: studentData.code,
-            date: new Date().toISOString(),
-            pass: studentData.pass,
+            task: task,
+            data: [
+              {
+                code: studentData.code,
+                date: new Date().toISOString(),
+                pass: studentData.pass,
+              },
+            ],
           },
         ],
       });
