@@ -50,6 +50,7 @@ exports.getPass = async (req, res) => {
       .filter((student) => student !== null);
 
     logger.info("student responded successfully");
+    logger.info(result);
     res.status(200).send(result);
   } catch (error) {
     logger.error(error.stack);

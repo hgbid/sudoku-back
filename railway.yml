@@ -1,0 +1,4 @@
+# railway.yml
+plugins:
+  - name: python
+    version: 3.9
