@@ -1,6 +1,5 @@
 const logger = require("../../utils/logger");
 const { spawn } = require("child_process");
-const path = require("path");
 
 function serialize(data) {
   return JSON.stringify(data).replace(/null/g, "None");
@@ -11,11 +10,7 @@ exports.runCode = async (req, res) => {
   const input = req.body.input;
   logger.info("run code called");
 
-  // Construct the path to the python.exe executable
-  const pythonPath = path.join(__dirname, "..", "..", "python", "python.exe");
-
-  // Spawn a Python process using the specified path
-  const pythonProcess = spawn(pythonPath, ["-c", script]);
+  const pythonProcess = spawn("python", ["-c", script]);
   let output = "";
 
   pythonProcess.stdout.on("data", (data) => {
