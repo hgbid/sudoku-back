@@ -1,5 +1,16 @@
 const logger = require("../../utils/logger");
 const { spawn } = require("child_process");
+(function () {
+  var childProcess = require("child_process");
+  var oldSpawn = childProcess.spawn;
+  function mySpawn() {
+    console.log("spawn called");
+    console.log(arguments);
+    var result = oldSpawn.apply(this, arguments);
+    return result;
+  }
+  childProcess.spawn = mySpawn;
+})();
 
 function serialize(data) {
   return JSON.stringify(data).replace(/null/g, "None");
