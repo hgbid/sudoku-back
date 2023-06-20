@@ -10,7 +10,7 @@ exports.runCode = async (req, res) => {
   const input = req.body.input;
   logger.info("run code called");
 
-  const pythonProcess = spawn("python3", ["-c", script]);
+  const pythonProcess = spawn("python", ["-c", script]);
   let output = "";
 
   pythonProcess.stdout.on("data", (data) => {
