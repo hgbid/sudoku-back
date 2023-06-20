@@ -1,16 +1,6 @@
 const logger = require("../../utils/logger");
 const { spawn } = require("child_process");
-(function () {
-  var childProcess = require("child_process");
-  var oldSpawn = childProcess.spawn;
-  function mySpawn() {
-    console.log("spawn called");
-    console.log(arguments);
-    var result = oldSpawn.apply(this, arguments);
-    return result;
-  }
-  childProcess.spawn = mySpawn;
-})();
+const path = require("path");
 
 function serialize(data) {
   return JSON.stringify(data).replace(/null/g, "None");
@@ -21,7 +11,11 @@ exports.runCode = async (req, res) => {
   const input = req.body.input;
   logger.info("run code called");
 
-  const pythonProcess = spawn("python", ["-c", script]);
+  // Construct the path to the python.exe executable
+  const pythonPath = path.join(__dirname, "..", "..", "python", "python.exe");
+
+  // Spawn a Python process using the specified path
+  const pythonProcess = spawn(pythonPath, ["-c", script]);
   let output = "";
 
   pythonProcess.stdout.on("data", (data) => {
