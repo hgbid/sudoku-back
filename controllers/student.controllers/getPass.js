@@ -1,4 +1,4 @@
-const { Student, Instructor } = require("../../models/models");
+const { Student } = require("../../models/models");
 const logger = require("../../utils/logger");
 
 exports.getPass = async (req, res) => {
