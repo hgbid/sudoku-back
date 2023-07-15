@@ -7,6 +7,7 @@ exports.login = async (req, res, next) => {
   const { password } = req.body;
   try {
     const PASSWORD = process.env.INST_PASSWORD;
+    console.log(PASSWORD, password)
     if (!PASSWORD || password !== PASSWORD) {
       console.log(password, PASSWORD);
       logger.info("Invalid password");

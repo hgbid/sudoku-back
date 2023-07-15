@@ -1,0 +1,17 @@
+2023-07-15T10:56:59.852Z info: Starting the progarm
+2023-07-15T10:57:02.270Z info: Connected to MongoDB successfully
+2023-07-15T10:57:17.968Z info: Request from IP: ::1
+2023-07-15T10:57:17.970Z error: Unauthorized - There is no token
+2023-07-15T10:59:50.504Z info: Starting the progarm
+2023-07-15T10:59:53.224Z info: Connected to MongoDB successfully
+2023-07-15T11:00:42.807Z info: Request from IP: ::1
+2023-07-15T11:00:42.808Z info: login called
+2023-07-15T11:00:42.809Z info: Login successful
+2023-07-15T11:01:25.433Z info: Request from IP: ::1
+2023-07-15T11:01:25.435Z info: Authorizetion succeed
+2023-07-15T11:01:25.435Z info: get student called
+2023-07-15T11:01:25.847Z info: student responded successfully
+2023-07-15T11:01:32.485Z info: Request from IP: ::1
+2023-07-15T11:01:32.486Z info: Authorizetion succeed
+2023-07-15T11:01:32.486Z info: get student called
+2023-07-15T11:01:32.851Z info: student responded successfully
